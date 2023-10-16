@@ -13,9 +13,9 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
-const numbersArray1 = [6, 7, 8, 9, 10]
-// Expected output: [18, 21, 24, 27, 30]
-const numbersArray2 = [24, 27, 30, 33, 36]
+// const numbersArray1 = [6, 7, 8, 9, 10]
+// // Expected output: [18, 21, 24, 27, 30]
+// const numbersArray2 = [24, 27, 30, 33, 36]
 // Expected output: [72, 81, 90, 99, 108]
 
 // b) Create the function that makes the test pass.
@@ -26,26 +26,58 @@ const numbersArray2 = [24, 27, 30, 33, 36]
 
 // a) Create a test with expect statements for each of the variables provided.
 
-const object1 = { number: 15 }
-// Expected output: "15 is divisible by three"
-const object2 = { number: 0 }
-// Expected output: "0 is divisible by three"
-const object3 = { number: -7 }
-// Expected output: "-7 is not divisible by three"
+// const object1 = { number: 15 }
+// // Expected output: "15 is divisible by three"
+// const object2 = { number: 0 }
+// // Expected output: "0 is divisible by three"
+// const object3 = { number: -7 }
+// // Expected output: "-7 is not divisible by three"
 
 // b) Create the function that makes the test pass.
 
+describe("aObject", () => {
+    it("if the number inside it is evenly divisible by three or not", ()=> {
+    expect(aObject(15, 0)).toEqual("is divisible by three")
+    expect(aObject(-7)).toEqual("is not divisible by three")
+
+})
+})
+
 // Pseudo code:
+// Create a function called aObject 
+// input: 15, 0, -7
+// output: 15 is divisible by three, 0 is divisible by three, -7 is not divisible by three
+// write conditional to evaluate if yes- divisible by 3, if no- not divisible by 3.
+
+const aObject = (number) => {
+    if (number % 3 !== 0 ){
+    return is "is divisible by three"
+    }else (number % 3 == 0 ){
+    return is "is not divisible by three"
+}
+}
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
 // a) Create a test with expect statements for each of the variables provided.
 
-const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
-// Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
+// const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+// const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+// // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
 
 // b) Create the function that makes the test pass.
-
+// describe("repeatWords", () => {
+//     it("returns an array with all the words capitalized", () => {
+//       expect(repeatWords("streetlamp")).toEqual("Streetlamp")
+//       expect(repeatWords("potato")).toEqual("Potato") 
+//       expect(repeatWords("teeth")).toEqual("Teeth")
+//       expect(repeatWords("conclusion")).toEqual("Conclusion")
+//       expect(repeatWords("nephew")).toEqual("Nephew")
+//       expect(repeatWords("temperature")).toEqual("Temperature")
+//       expect(repeatWords("database")).toEqual("Database")
+//       expect(repeatWords("chopsticks")).toEqual("Chopsticks")
+//       expect(repeatWords("mango")).toEqual("Mango")
+//     })
+// })
 // Pseudo code:
