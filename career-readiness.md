@@ -11,7 +11,7 @@ This week, we covered the importance of a great technical portfolio to help you 
 1. https://stephenbilham.github.io/Portfolio/
 2. http://www.aribrashear.com/
 3. https://arko.net/
-
+.
 ### LinkedIn
 
 Your LinkedIn url:

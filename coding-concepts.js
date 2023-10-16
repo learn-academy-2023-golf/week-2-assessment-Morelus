@@ -14,6 +14,7 @@ const cohort = "Golf 2023"
 // a) Your answer:"Golf" "2023"
 // b) Verify and explain:
 
+
 // --------------------2) What will this log?
 
 const greeter = (name) => {
@@ -63,4 +64,4 @@ console.log(learnStudent)
 // a) Your answer: i'm not sure. George, Golf, 2023
 // b) Verify and explain:
 //Learn { student: 'George', cohort: 'Golf', year: 2023 }
-// its calling name, golf, 2023 in Learn the learnStudent adds George. 
+// its calling name, golf, 2023 in Learn the learnStudent adds George..
