@@ -22,6 +22,7 @@ function indexOfFirstVowel(str) {
             return i;
         }
     }
+    
 
     // If no vowel is found, log a message and return -1
     console.log('No vowel found in the string.');

@@ -8,6 +8,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Type your initials here to confirm you read the instructions:
 
+
 1. What is the difference between a parameter and an argument?
 
 Your answer: Parameter is special variables that accept an input in a function and an argument is the value assigned in the parameter.  
